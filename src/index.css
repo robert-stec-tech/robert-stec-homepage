@@ -1,13 +1,86 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: lightgray;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer base {
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./assets/fonts/Inter/static/Inter-Medium.ttf');
+  }
+
+  @font-face {
+    font-family: 'Agbalumo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./assets/fonts/Agbalumo/Agbalumo-Regular.ttf') format('woff2');
+  }
 }
+
+@layer components {
+  .nav-btn.active {
+     background-color: #1b1b6e;
+   }
+
+   @media(hover:hover) {
+    .nav-btn:hover {
+      background-color: #1b1b6e;
+    }
+  }
+ 
+   @media(hover:hover) {
+     .arrow:hover {
+      color:#0f0 ;
+     }
+   }
+ 
+   @media(hover:hover) {
+     .contact-btn:hover {
+       background-color: #00f;
+     }
+   }
+ }
+ 
+ @layer utilities {
+   .layout {
+     @apply flex flex-col justify-evenly items-center landscape:w-[92%] landscape:lg:w-[95%] min-h-screen px-[2vh] py-[4vh] portrait:pb-[10vh];
+   }
+ 
+   h2 {
+     @apply text-3xl portrait:md:text-5xl landscape:lg:text-5xl text-center uppercase tracking-wider;
+   }
+ 
+   h3 {
+     @apply mb-[1vh] font-agbalumo text-xl lg:text-3xl text-center uppercase;
+   }
+ 
+   p {
+     @apply portrait:md:text-2xl landscape:sm:text-sm;
+   }
+ 
+   .margin {
+     @apply mx-[2vh];
+   }
+ 
+   .form-field {
+     @apply px-2 text-black rounded-lg;
+   }
+ 
+   .nav-btn {
+     @apply flex justify-center items-center py-2 portrait:md:py-8 px-2 portrait:md:px-6 bg-transparent text-center border-solid border-2 border-blue-900 rounded-full transition cursor-pointer;
+   }
+ 
+   .arrow {
+     @apply h-[5vh] landscape:h-[10vh] portrait:text-[#0f0] landscape:text-[#0a0] transition cursor-pointer;
+   }
+ }
