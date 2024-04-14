@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/robert-stec-homepage/static/css/main.4a29581c.css",
+    "main.js": "/robert-stec-homepage/static/js/main.1afe1453.js",
+    "static/js/453.13698ea9.chunk.js": "/robert-stec-homepage/static/js/453.13698ea9.chunk.js",
+    "static/media/Agbalumo-Regular.ttf": "/robert-stec-homepage/static/media/Agbalumo-Regular.169b25c00fba6c8e1947.ttf",
+    "static/media/Inter-Medium.ttf": "/robert-stec-homepage/static/media/Inter-Medium.3f7acfe50aad7ad68548.ttf",
+    "static/media/mailman_640.png": "/robert-stec-homepage/static/media/mailman_640.f6669c96338455899a8b.png",
+    "static/media/satchel_640.png": "/robert-stec-homepage/static/media/satchel_640.abe36e0bfba7bb0b94ce.png",
+    "static/media/chat.jpeg": "/robert-stec-homepage/static/media/chat.80db20d4388fa162a6f9.jpeg",
+    "static/media/magic-of-science.jpeg": "/robert-stec-homepage/static/media/magic-of-science.7e15aa49ee6841aa565f.jpeg",
+    "static/media/games.jpeg": "/robert-stec-homepage/static/media/games.5427906e9cb0153e8653.jpeg",
+    "static/media/react.png": "/robert-stec-homepage/static/media/react.396536ced87da4ba25b4.png",
+    "index.html": "/robert-stec-homepage/index.html",
+    "main.4a29581c.css.map": "/robert-stec-homepage/static/css/main.4a29581c.css.map",
+    "main.1afe1453.js.map": "/robert-stec-homepage/static/js/main.1afe1453.js.map",
+    "453.13698ea9.chunk.js.map": "/robert-stec-homepage/static/js/453.13698ea9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a29581c.css",
+    "static/js/main.1afe1453.js"
+  ]
+}
