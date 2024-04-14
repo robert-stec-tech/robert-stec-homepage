@@ -28,7 +28,7 @@ const Form = ({
   return (
     <form
       ref={forwardedRef}
-      className="flex flex-col gap-[1vh]"
+      className="flex flex-col gap-[1vh] max-w-[85%] mx-auto"
       onSubmit={sendEmail}
     >
       <label>
