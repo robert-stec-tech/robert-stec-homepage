@@ -63,7 +63,7 @@ const Navigation = () => {
         : translation.english.title.contact,
     },
     {
-      to: 'https://github.com/robertspol',
+      to: 'https://github.com/robert-stec-tech',
       icon: faGithub,
       title: 'GitHub',
       github: true,
